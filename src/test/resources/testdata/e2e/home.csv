@@ -1,0 +1,29 @@
+Test Case ID,Test Case Description,Search Keyword,Expected Outcome
+TC-1,Page title should be correct,,JPetStore Demo
+TC-2,Logo link should be correct,,/actions/Catalog.action(;jsessionid=[A-Z0-9]+)?
+TC-3,Logo image should be correct,,
+TC-4,Shopping Cart link should be correct,,/actions/Cart.action(;jsessionid=[A-Z0-9]+)?[\\?]viewCart=
+TC-5,Sign In link should be correct,,/actions/Account.action(;jsessionid=[A-Z0-9]+)?[\\?]signonForm=
+TC-6,Sign In text should be correct,,Sign In
+TC-7,Help link should be correct,,../help.html
+TC-8,Help text should be correct,,?
+TC-9,Search button text should be correct,,Search
+TC-10,Search with a keyword should take to search result,fish,
+TC-11,Quick link for Fish should be correct,,/actions/Catalog.action(;jsessionid=[A-Z0-9]+)?[\\?]viewCategory=&categoryId=FISH
+TC-12,Quick link for Dogs should be correct,,/actions/Catalog.action(;jsessionid=[A-Z0-9]+)?[\\?]viewCategory=&categoryId=DOGS
+TC-13,Quick link for Reptiles should be correct,,/actions/Catalog.action(;jsessionid=[A-Z0-9]+)?[\\?]viewCategory=&categoryId=REPTILES
+TC-14,Quick link for Cats should be correct,,/actions/Catalog.action(;jsessionid=[A-Z0-9]+)?[\\?]viewCategory=&categoryId=CATS
+TC-15,Quick link for Birds should be correct,,/actions/Catalog.action(;jsessionid=[A-Z0-9]+)?[\\?]viewCategory=&categoryId=BIRDS
+TC-16,Sidebar link for Fish should be correct,,/actions/Catalog.action(;jsessionid=[A-Z0-9]+)?[\\?]viewCategory=&categoryId=FISH
+TC-17,Sidebar link for Dogs should be correct,,/actions/Catalog.action(;jsessionid=[A-Z0-9]+)?[\\?]viewCategory=&categoryId=DOGS
+TC-18,Sidebar link for Reptiles should be correct,,/actions/Catalog.action(;jsessionid=[A-Z0-9]+)?[\\?]viewCategory=&categoryId=REPTILES
+TC-19,Sidebar link for Cats should be correct,,/actions/Catalog.action(;jsessionid=[A-Z0-9]+)?[\\?]viewCategory=&categoryId=CATS
+TC-20,Sidebar link for Birds should be correct,,/actions/Catalog.action(;jsessionid=[A-Z0-9]+)?[\\?]viewCategory=&categoryId=BIRDS
+TC-21,Sidebar text content should be correct,,"Saltwater, Freshwater Various Breeds Various Breeds, Exotic Varieties Lizards, Turtles, Snakes Exotic Varieties"
+TC-22,Main image link for Birds in center should be correct,,Catalog.action?viewCategory=&categoryId=BIRDS
+TC-23,Main image link for Fish should be correct,,Catalog.action?viewCategory=&categoryId=FISH
+TC-24,Main image link for Dogs should be correct,,Catalog.action?viewCategory=&categoryId=DOGS
+TC-25,Main image link for Reptiles should be correct,,Catalog.action?viewCategory=&categoryId=REPTILES
+TC-26,Main image link for Cats should be correct,,Catalog.action?viewCategory=&categoryId=CATS
+TC-27,Main image link for Birds should be correct,,Catalog.action?viewCategory=&categoryId=BIRDS
+TC-28,Powered By link in footer should be correct,,http://www.mybatis.org

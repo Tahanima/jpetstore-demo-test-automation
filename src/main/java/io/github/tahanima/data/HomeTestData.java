@@ -1,0 +1,16 @@
+package io.github.tahanima.data;
+
+import com.univocity.parsers.annotations.Parsed;
+
+import lombok.Getter;
+import lombok.ToString;
+
+/**
+ * @author tahanima
+ */
+@Getter
+@ToString(callSuper = true)
+public class HomeTestData extends BaseTestData {
+    @Parsed(field = "Search Keyword", defaultNullRead = "")
+    private String searchKeyword;
+}

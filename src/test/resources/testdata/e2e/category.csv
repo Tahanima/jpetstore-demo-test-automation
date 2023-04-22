@@ -1,0 +1,69 @@
+Test Case ID,Test Case Description,Category,Row,Expected Outcome
+TC-1,Header text should be correct,Fish,,Fish
+TC-1,Header text should be correct,Dogs,,Dogs
+TC-1,Header text should be correct,Reptiles,,Reptiles
+TC-1,Header text should be correct,Cats,,Cats
+TC-1,Header text should be correct,Birds,,Birds
+TC-2,Product Id should be correct,Fish,0,FI-SW-01
+TC-2,Product Id should be correct,Fish,1,FI-SW-02
+TC-2,Product Id should be correct,Fish,2,FI-FW-01
+TC-2,Product Id should be correct,Fish,3,FI-FW-02
+TC-2,Product Id should be correct,Dogs,0,K9-BD-01
+TC-2,Product Id should be correct,Dogs,1,K9-PO-02
+TC-2,Product Id should be correct,Dogs,2,K9-DL-01
+TC-2,Product Id should be correct,Dogs,3,K9-RT-01
+TC-2,Product Id should be correct,Dogs,4,K9-RT-02
+TC-2,Product Id should be correct,Dogs,5,K9-CW-01
+TC-2,Product Id should be correct,Reptiles,0,RP-SN-01
+TC-2,Product Id should be correct,Reptiles,1,RP-LI-02
+TC-2,Product Id should be correct,Cats,0,FL-DSH-01
+TC-2,Product Id should be correct,Cats,1,FL-DLH-02
+TC-2,Product Id should be correct,Birds,0,AV-CB-01
+TC-2,Product Id should be correct,Birds,1,AV-SB-02
+TC-3,Product Name should be correct,Fish,0,Angelfish
+TC-3,Product Name should be correct,Fish,1,Tiger Shark
+TC-3,Product Name should be correct,Fish,2,Koi
+TC-3,Product Name should be correct,Fish,3,Goldfish
+TC-3,Product Name should be correct,Dogs,0,Bulldog
+TC-3,Product Name should be correct,Dogs,1,Poodle
+TC-3,Product Name should be correct,Dogs,2,Dalmation
+TC-3,Product Name should be correct,Dogs,3,Golden Retriever
+TC-3,Product Name should be correct,Dogs,4,Labrador Retriever
+TC-3,Product Name should be correct,Dogs,5,Chihuahua
+TC-3,Product Name should be correct,Reptiles,0,Rattlesnake
+TC-3,Product Name should be correct,Reptiles,1,Iguana
+TC-3,Product Name should be correct,Cats,0,Manx
+TC-3,Product Name should be correct,Cats,1,Persian
+TC-3,Product Name should be correct,Birds,0,Amazon Parrot
+TC-3,Product Name should be correct,Birds,1,Finch
+TC-4,Product Id link should be correct,Fish,0,/actions/Catalog.action?viewProduct=&productId=FI-SW-01
+TC-4,Product Id link should be correct,Fish,1,/actions/Catalog.action?viewProduct=&productId=FI-SW-02
+TC-4,Product Id link should be correct,Fish,2,/actions/Catalog.action?viewProduct=&productId=FI-FW-01
+TC-4,Product Id link should be correct,Fish,3,/actions/Catalog.action?viewProduct=&productId=FI-FW-02
+TC-4,Product Id link should be correct,Dogs,0,/actions/Catalog.action?viewProduct=&productId=K9-BD-01
+TC-4,Product Id link should be correct,Dogs,1,/actions/Catalog.action?viewProduct=&productId=K9-PO-02
+TC-4,Product Id link should be correct,Dogs,2,/actions/Catalog.action?viewProduct=&productId=K9-DL-01
+TC-4,Product Id link should be correct,Dogs,3,/actions/Catalog.action?viewProduct=&productId=K9-RT-01
+TC-4,Product Id link should be correct,Dogs,4,/actions/Catalog.action?viewProduct=&productId=K9-RT-02
+TC-4,Product Id link should be correct,Dogs,5,/actions/Catalog.action?viewProduct=&productId=K9-CW-01
+TC-4,Product Id link should be correct,Reptiles,0,/actions/Catalog.action?viewProduct=&productId=RP-SN-01
+TC-4,Product Id link should be correct,Reptiles,1,/actions/Catalog.action?viewProduct=&productId=RP-LI-02
+TC-4,Product Id link should be correct,Cats,0,/actions/Catalog.action?viewProduct=&productId=FL-DSH-01
+TC-4,Product Id link should be correct,Cats,1,/actions/Catalog.action?viewProduct=&productId=FL-DLH-02
+TC-4,Product Id link should be correct,Birds,0,/actions/Catalog.action?viewProduct=&productId=AV-CB-01
+TC-4,Product Id link should be correct,Birds,1,/actions/Catalog.action?viewProduct=&productId=AV-SB-02
+TC-5,Back link should be correct,Fish,,/actions/Catalog.action
+TC-5,Back link should be correct,Dogs,,/actions/Catalog.action
+TC-5,Back link should be correct,Reptiles,,/actions/Catalog.action
+TC-5,Back link should be correct,Cats,,/actions/Catalog.action
+TC-5,Back link should be correct,Birds,,/actions/Catalog.action
+TC-6,Back link text should be correct,Fish,,Return to Main Menu
+TC-6,Back link text should be correct,Dogs,,Return to Main Menu
+TC-6,Back link text should be correct,Reptiles,,Return to Main Menu
+TC-6,Back link text should be correct,Cats,,Return to Main Menu
+TC-6,Back link text should be correct,Birds,,Return to Main Menu
+TC-7,Table header texts should be correct,Fish,,Product ID|Name
+TC-7,Table header texts should be correct,Dogs,,Product ID|Name
+TC-7,Table header texts should be correct,Reptiles,,Product ID|Name
+TC-7,Table header texts should be correct,Cats,,Product ID|Name
+TC-7,Table header texts should be correct,Birds,,Product ID|Name
